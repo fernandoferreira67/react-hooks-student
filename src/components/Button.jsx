@@ -1,6 +1,10 @@
-const Button = (children) => {
+import { NavLink } from 'react-router-dom'
+
+const Button = ({children, to}) => {
   return(
-    <button className='px-4 py-2'>{children}</button>
+      <NavLink to={to}>
+        <h1>{children}</h1>
+      </NavLink>
   )
 }
 
