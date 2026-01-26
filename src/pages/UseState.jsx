@@ -12,7 +12,7 @@ const UseStatePage = () => {
   }
 
   return (
-    <div className="flex flex-col mb-4">
+    <div className="px-4 flex flex-col mb-4">
       <h1 className="font-extrabold text-5xl py-5">UseState</h1>
       <div className="flex px-4">
         <span className="font-bold text-2xl px-4 py-5 bg-yellow-100 mr-3">{count}</span>

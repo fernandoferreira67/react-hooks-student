@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import HomePage from "./pages/Home.jsx"
-import UseState from "./pages/UseState.jsx"
+import UseStatePage from "./pages/UseState.jsx"
+import UseEffectPage from "./pages/UseEffect.jsx"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -12,7 +13,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/useState',
-    element: <UseState />,
+    element: <UseStatePage />,
+  },
+   {
+    path: '/useEffect',
+    element: <UseEffectPage />,
   },
 ])
 
