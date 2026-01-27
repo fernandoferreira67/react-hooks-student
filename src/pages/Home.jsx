@@ -10,6 +10,7 @@ const HomePage = () => {
         <Button to="/useState">useState</Button>
         <Button to="/useEffect">useEffect</Button>
         <Button to="/useRef">useRef</Button>
+        <Button to="/useReducer">useReducer</Button>
       </div>
     </div>
   );
