@@ -7,6 +7,7 @@ import UseEffectPage from "./pages/UseEffect.jsx";
 import UseRefPage from "./pages/UseRef.jsx";
 import UseReducerPage from "./pages/UseReducer.jsx";
 import UseMemoPage from "./pages/UseMemo.jsx";
+import UseCallbackPage from "./pages/UseCallback.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/useMemo",
     element: <UseMemoPage />,
+  },
+  {
+    path: "/useCallback",
+    element: <UseCallbackPage />,
   },
 ]);
 
